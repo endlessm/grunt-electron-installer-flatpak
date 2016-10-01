@@ -21,12 +21,12 @@ var testExistence = function (test, expectations) {
 exports.command = {
   'app with asar': function (test) {
     testExistence(test, [
-      'test/fixtures/out/footest_i386.deb'
+      'test/fixtures/out/footest_i386.flatpak'
     ])
   },
   'app without asar': function (test) {
     testExistence(test, [
-      'test/fixtures/out/bartest_amd64.deb'
+      'test/fixtures/out/bartest_amd64.flatpak'
     ])
   }
 }

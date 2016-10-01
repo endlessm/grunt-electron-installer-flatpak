@@ -19,7 +19,7 @@ module.exports = function (grunt) {
       ]
     },
 
-    'electron-installer-debian': {
+    'electron-installer-flatpak': {
       options: {
         productDescription: 'Just a test.',
         section: 'devel',
@@ -35,7 +35,7 @@ module.exports = function (grunt) {
         src: 'test/fixtures/app-with-asar/',
         dest: 'test/fixtures/out/',
         rename: function (dest) {
-          return path.join(dest, '<%= name %>_<%= arch %>.deb')
+          return path.join(dest, '<%= name %>_<%= arch %>.flatpak')
         }
       },
 
@@ -58,7 +58,7 @@ module.exports = function (grunt) {
         src: 'test/fixtures/app-without-asar/',
         dest: 'test/fixtures/out/',
         rename: function (dest) {
-          return path.join(dest, '<%= name %>_<%= arch %>.deb')
+          return path.join(dest, '<%= name %>_<%= arch %>.flatpak')
         }
       }
     },
@@ -78,7 +78,7 @@ module.exports = function (grunt) {
 
   // Whenever the "test" task is run, first lint everything, then run this
   // plugin's task(s), then test the result.
-  grunt.registerTask('test', ['clean', 'eslint', 'electron-installer-debian', 'nodeunit'])
+  grunt.registerTask('test', ['clean', 'eslint', 'electron-installer-flatpak', 'nodeunit'])
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['test'])
