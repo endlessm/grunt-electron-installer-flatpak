@@ -1,10 +1,10 @@
 'use strict'
 
-var installer = require('electron-installer-debian')
+var installer = require('electron-installer-flatpak')
 
 module.exports = function (grunt) {
-  grunt.registerMultiTask('electron-installer-debian',
-    'Create a Debian package for your Electron app.',
+  grunt.registerMultiTask('electron-installer-flatpak',
+    'Create a Flatpak package for your Electron app.',
     function () {
       var done = this.async()
       var options = this.options({
