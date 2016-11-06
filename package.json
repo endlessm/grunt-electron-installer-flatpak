@@ -1,20 +1,20 @@
 {
-  "name": "grunt-electron-installer-debian",
-  "description": "Create a Debian package for your Electron app.",
-  "version": "0.4.0",
+  "name": "grunt-electron-installer-flatpak",
+  "description": "Create a flatpak for your Electron app.",
+  "version": "1.0.0",
   "license": "MIT",
   "author": {
-    "name": "Daniel Perez Alvarez",
-    "email": "unindented@gmail.com",
-    "url": "http://unindented.org/"
+    "name": "Matt Watson",
+    "email": "mattdangerw@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/unindented/grunt-electron-installer-debian.git"
+    "url": "git://github.com/mattdangerw/grunt-electron-installer-flatpak.git"
   },
   "keywords": [
     "gruntplugin",
-    "electron"
+    "electron",
+    "flatpak"
   ],
   "os": [
     "darwin",
@@ -24,7 +24,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "electron-installer-debian": "^0.4.0"
+    "electron-installer-flatpak": "^1.0.0"
   },
   "devDependencies": {
     "async": "^2.0.0",
