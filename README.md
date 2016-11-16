@@ -1,10 +1,10 @@
 ![Electron Installer for Flatpak](resources/logo.png)
 
-# grunt-electron-installer-flatpak [![Version](https://img.shields.io/npm/v/grunt-electron-installer-flatpak.svg)](https://www.npmjs.com/package/grunt-electron-installer-flatpak) [![Build Status](https://img.shields.io/travis/mattdangerw/grunt-electron-installer-flatpak.svg)](http://travis-ci.org/mattdangerw/grunt-electron-installer-flatpak) [![Dependency Status](https://img.shields.io/gemnasium/mattdangerw/grunt-electron-installer-flatpak.svg)](https://gemnasium.com/mattdangerw/grunt-electron-installer-flatpak)
+# grunt-electron-installer-flatpak [![Version](https://img.shields.io/npm/v/grunt-electron-installer-flatpak.svg)](https://www.npmjs.com/package/grunt-electron-installer-flatpak) [![Build Status](https://img.shields.io/travis/endlessm/grunt-electron-installer-flatpak.svg)](http://travis-ci.org/endlessm/grunt-electron-installer-flatpak) [![Dependency Status](https://img.shields.io/gemnasium/endlessm/grunt-electron-installer-flatpak.svg)](https://gemnasium.com/endlessm/grunt-electron-installer-flatpak)
 
 > Create a Flatpak package for your Electron app.
 
-Not a fan of [Grunt](http://gruntjs.com/)? Use the vanilla module [`electron-installer-flatpak`](https://github.com/mattdangerw/electron-installer-flatpak)!
+Not a fan of [Grunt](http://gruntjs.com/)? Use the vanilla module [`electron-installer-flatpak`](https://github.com/endlessm/electron-installer-flatpak)!
 
 
 ## Requirements
@@ -135,13 +135,13 @@ You can also create different packages for different architectures, while manual
 
 ### Options
 
-See the options supported by [`electron-installer-flatpak`](https://github.com/mattdangerw/electron-installer-flatpak#options).
+See the options supported by [`electron-installer-flatpak`](https://github.com/endlessm/electron-installer-flatpak#options).
 
 
 ## Meta
 
-* Code: `git clone git://github.com/mattdangerw/grunt-electron-installer-flatpak.git`
-* Home: <https://github.com/mattdangerw/grunt-electron-installer-flatpak/>
+* Code: `git clone git://github.com/endlessm/grunt-electron-installer-flatpak.git`
+* Home: <https://github.com/endlessm/grunt-electron-installer-flatpak/>
 
 
 ## Contributors
