@@ -1,8 +1,8 @@
-![Electron Installer for Flatpak](resources/logo.png)
-
 # grunt-electron-installer-flatpak [![Version](https://img.shields.io/npm/v/grunt-electron-installer-flatpak.svg)](https://www.npmjs.com/package/grunt-electron-installer-flatpak) [![Build Status](https://img.shields.io/travis/endlessm/grunt-electron-installer-flatpak.svg)](http://travis-ci.org/endlessm/grunt-electron-installer-flatpak) [![Dependency Status](https://img.shields.io/gemnasium/endlessm/grunt-electron-installer-flatpak.svg)](https://gemnasium.com/endlessm/grunt-electron-installer-flatpak)
 
-> Create a Flatpak package for your Electron app.
+Create a Flatpak package for your Electron app.This is based off the
+[grunt-electron-installer-debian](https://github.com/unindented/grunt-electron-installer-debian)
+tool.
 
 Not a fan of [Grunt](http://gruntjs.com/)? Use the vanilla module [`electron-installer-flatpak`](https://github.com/endlessm/electron-installer-flatpak)!
 
