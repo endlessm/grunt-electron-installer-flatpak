@@ -9,12 +9,10 @@ Not a fan of [Grunt](http://gruntjs.com/)? Use the vanilla module [`electron-ins
 
 ## Requirements
 
-This tool requires `flatpak` >= 0.6.13 to be installed on your system.
-
+This tool requires `flatpak` >= 0.6.13 to be installed on your system and
+Grunt `~0.4.0`
 
 ## Getting Started
-
-This plugin requires Grunt `~0.4.0`
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
