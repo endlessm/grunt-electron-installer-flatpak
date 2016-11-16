@@ -1,5 +1,3 @@
-var path = require('path')
-
 module.exports = function (grunt) {
   'use strict'
 
@@ -20,33 +18,18 @@ module.exports = function (grunt) {
     },
 
     'electron-installer-flatpak': {
-      options: {
-        productDescription: 'Just a test.',
-        section: 'devel',
-        priority: 'optional',
-        arch: 'i386',
-        depends: [],
-        recommends: [],
-        suggests: [],
-        categories: []
-      },
-
       'app-with-asar': {
+        options: {
+          id: 'com.bar.footest',
+          arch: 'ia32'
+        },
         src: 'test/fixtures/app-with-asar/',
-        dest: 'test/fixtures/out/',
-        rename: function (dest) {
-          return path.join(dest, '<%= name %>_<%= arch %>.flatpak')
-        }
+        dest: 'test/fixtures/out/'
       },
 
       'app-without-asar': {
         options: {
-          arch: 'amd64',
-          lintianOverrides: [
-            'changelog-file-missing-in-native-package',
-            'executable-not-elf-or-script',
-            'extra-license-file'
-          ],
+          arch: 'x64',
 
           icon: 'test/fixtures/icon.png',
           bin: 'resources/cli/bar.sh',
@@ -56,10 +39,7 @@ module.exports = function (grunt) {
         },
 
         src: 'test/fixtures/app-without-asar/',
-        dest: 'test/fixtures/out/',
-        rename: function (dest) {
-          return path.join(dest, '<%= name %>_<%= arch %>.flatpak')
-        }
+        dest: 'test/fixtures/out/'
       }
     },
 
